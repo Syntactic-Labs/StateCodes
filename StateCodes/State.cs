@@ -10,7 +10,7 @@ namespace StateCodes
     {
         public string Code { get; set; }
         public string Name { get; set; }
-
+        //a wire/pipline between State and Program
         public State(string code, string name)
         {
             Code = code;
